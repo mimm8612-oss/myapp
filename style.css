@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +13,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
+
 }
 
 .long {
@@ -24,13 +23,13 @@
     margin-right: auto;
 }
 
-.nav-lik {
+.nav-link {
     color: white;
     text-decoration: none;
     font-size: 15px;
 }
 
-.nav-lik :hover {
+.nav-link :hover {
     color: white;
 }
 
@@ -103,8 +102,10 @@
 }
 
 .product-row {
-    display: flex; /*ให้มันนอน*/
-    gap: 16px; /*ระยะหางอันตโฯมัต*/
+    display: flex;
+    /*ให้มันนอน*/
+    gap: 16px;
+    /*ระยะหางอันตโฯมัต*/
     flex-wrap: wrap;
 }
 
@@ -112,24 +113,28 @@
     padding: 20px;
 
 }
+
 .product-name {
     font-size: 13px;
     font-weight: 700;
     margin-bottom: 4px;
 }
-.product-desc{
+
+.product-desc {
     font-size: 13px;
     color: aliceblue;
     margin-bottom: 10px;
     line-height: 1.5;
 }
+
 .product-price {
     font-size: 18px;
     font-weight: 700;
     color: rgb(244, 0, 81);
     margin-bottom: 10px;
 }
-.button{
+
+.button {
     width: 100%;
     padding: 10px;
     background: rgb(21, 230, 87);
@@ -140,24 +145,47 @@
     font-weight: 770;
     cursor: pointer;
 }
-.button:hover{
+
+.button:hover {
     background: darkgreen;
-    transition: 1s; /*เวลาการกดปุ่ม*/
+    transition: 0.3s;
+    /*เวลาการกดปุ่ม*/
 }
+
 .footer {
     background: rgb(52, 61, 219);
     color: azure;
     padding: 32px 40px;
-    margin-top:auto ;
+    margin-top: auto;
 }
+
 footer h3 {
-      font-size: 18px;
-      margin-bottom: 10px;
-      color: blue;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: blue;
 }
-.footer-text{
+
+.footer-text {
     color: antiquewhite;
     font-size: 14px;
     margin-top: 5px;
 }
- 
+
+.empty-state {
+    background: white;
+    border: 1px solid;
+    border-radius:  10px;
+    padding: 60px 40px;
+    text-align: center;
+    margin-top: 24px;
+}
+.note-box{
+    background-color: azure;
+    border-left: 4px solid yellow;
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin-top:  24px;
+    font-size: 14px;
+    color: blueviolet;
+    line-height: 1.7;
+}
